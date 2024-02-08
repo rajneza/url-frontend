@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .dashboard-input{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #333;
+  }
+  
+  .dashboard-button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .shortened-urls {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+    text-align: center;
+   
+  }
+  
+  .shortened-urls h2 {
+    margin-top: 0;
+  }
+  
+  .shortened-urls ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .shortened-urls li {
+    margin-bottom: 20px;
+  }
+  
+  .shortened-urls li p {
+    margin: 0;
+    margin-top: 10px;
+  }
+  
+  .shortened-urls li p a {
+    color: #333;
+    text-decoration: none;
+  }
+  .dashboard-anchor{
+    color: white;
+    
+  }
+  .dashboard-div{
+    margin-left: auto!important;
+    display: flex;
+    align-items: center;
+    position: relative;
+    right: 25px;
+  }
+  .dashboard-div-main{
+    
+    width: 100%;
+  }
+  .dashboard-header{
+    display: flex;
+  }
+  
